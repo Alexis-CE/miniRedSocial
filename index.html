@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social - Iniciar Sesión, Registrar Usuario y Ver Timeline</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="loginContainer">
+        <h2>Iniciar Sesión</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Usuario" required><br><br>
+            <input type="password" id="password" placeholder="Contraseña" required><br><br>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <div class="registerContainer">
+        <h2>Registrar nuevo usuario</h2>
+        <form id="registerForm">
+            <input type="text" id="newUsername" placeholder="Nuevo Usuario" required><br><br>
+            <input type="password" id="newPassword" placeholder="Nueva Contraseña" required><br><br>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+
+    <div class="timelineContainer" id="timelineContainer" style="display:none;">
+        <h2>Tu Timeline</h2>
+        <div id="postsContainer"></div>
+        <textarea id="newPost" placeholder="Escribe un nuevo post"></textarea><br><br>
+        <button id="postButton">Publicar</button>
+    </div>
+
+    <p id="message"></p>
+    <button id="reloadButton">Recargar</button>
+
+    <script src="./redSocial.js"></script>
+</body>
+</html>
