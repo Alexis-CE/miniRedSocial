@@ -32,7 +32,7 @@ function registrarUsuario(nuevoUsuario, nuevaPassword) {
         alert("Ese usuario ya existe.");
     } else {
         dataBase.push({ username: nuevoUsuario, password: nuevaPassword, posts: [] });
-        localStorage.setItem('dataBase', JSON.stringify(dataBase));  // Guardar cambios
+        localStorage.setItem('dataBase', JSON.stringify(dataBase));
         alert("Usuario registrado con éxito, inicie sesión.");
     }
 }
