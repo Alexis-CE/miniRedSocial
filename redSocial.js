@@ -87,7 +87,7 @@ form.addEventListener('submit', function(e) {
             }
         });
     } else {
-        message.textContent = "Usuario o contraseña incorrectos.";
+        message.textContent = "Usuario o contraseña incorrectos, intenté nuevamente.";
     }
 });
 
