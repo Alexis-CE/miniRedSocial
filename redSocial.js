@@ -91,7 +91,7 @@ form.addEventListener('submit', function(e) {
     }
 });
 
-// Mostrar los posts del usuario
+
 function mostrarPosts(user) {
     postsContainer.innerHTML = '';
 
