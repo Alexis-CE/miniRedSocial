@@ -1,6 +1,6 @@
 # 🔐 Mini Login con Timeline
 
-Este proyecto fue desarrollado como parte de un **reto de programación** enfocado en validación de usuarios y manejo de sesión en el navegador.
+Este proyecto fue desarrollado como parte de un **reto de programación** sobre una red social.
 
 ---
 
